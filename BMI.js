@@ -1,14 +1,9 @@
-//for ui we will use tailwind css
-//add tailwind cdn in index.html
-
 import { useState } from "react";
 
 export default function BMI() {
   const [height, setHeight] = useState("");
   const [weight, setWeight] = useState("");
-
   const [bmiResult, setBmiResult] = useState(null);
-
   const [status, setStatus] = useState("");
 
   function calculateBMI() {
